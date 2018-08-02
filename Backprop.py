@@ -19,4 +19,4 @@ for epoch in range(1000):
 for person, features in people.items():
   compute=net.activate(features)
   prop=compute[0]
-  print(person,' is ',prop,'% likely to buy')
+  print(person,' is ',prop,'% satın alma ihtimali')
